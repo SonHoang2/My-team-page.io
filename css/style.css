@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.header {
+    margin: 71px 0 0 12px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+}
+
+.header-heading-2 {
+    font-family: 'PT Serif', serif;
+    font-size: 3.6rem;
+    margin: 0 0 38px 0;
+}
+
+.header-heading-3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+}
+
+.header-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.container-element {
+    display: flex;
+    padding: 0 10px 50px 10px;
+}
+
+.img {
+    width: 100%;
+}
+
+.name {
+    font-size: 1.4rem;
+    margin: 10px 0 0 0;
+}
+
+.text-vertical {
+    font-size: 1rem;
+    writing-mode: vertical-rl;
+    margin: 0 0 0 6px;
+    text-transform: uppercase;
+    font-family: 'PT Serif';
+    font-weight: 400;
+}
+
+.author {
+    margin: 50px 0 0 0;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.author-text {
+    text-align: center;
+    color: #BDBDBD;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+@media (min-width: 1025px) {
+    .mt-40 {
+        margin-top: 0;
+    }
+
+    .mt-80 {
+        margin-top: 80px;
+    }
+
+    .header {
+        margin: 110px auto 0 auto;
+        flex-direction: row;
+        padding-left: 50px;
+    }
+
+    .header-element {
+        flex: 1;
+    }
+
+    .header-text {
+        font-size: 1.8rem;
+        margin-right: 200px;
+    }
+    
+    .name {
+        font-size: 1.8rem;
+        margin-top: 15px;
+    }
+
+    .text-vertical {
+        font-size: 1.2rem;
+    }
+
+    .container-element {
+        padding: 0 50px 80px 50px;
+    }
+
+    .col {
+        width: 33.33%;
+    }
+}
